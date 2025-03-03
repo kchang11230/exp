@@ -1,0 +1,7 @@
+name: my-simple-app
+runtime: nodejs18  # FunctionCat 目前只支持 Node.js
+entry: index.js    # 入口文件
+memory: 128MB
+timeout: 30s
+env:
+  NODE_ENV: production
